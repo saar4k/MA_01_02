@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item android:gravity="bottom">
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" />
+                    <corners android:radius="2dp" />
+                </shape>
+            </item>
+            <item android:gravity="bottom">
+                <shape android:shape="rectangle">
+                    <size android:height="0dp" />
+                    <solid android:color="#ffffff" /> <!-- Hier die gewünschte Farbe einstellen (Weiß) -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
